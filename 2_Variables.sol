@@ -33,7 +33,7 @@ contract Variables {
 
     // Local Variables (지역 변수) : 함수 안에서 선언되는 변수이고 블록체인에 기록되지 않는다.
     // view : 컨트랙트의 변수를 읽기만 할 때
-    // prue : 컨트랙트의 변수를 읽지도, 쓰지도 않을 때
+    // pure : 컨트랙트의 변수를 읽지도, 쓰지도 않을 때
     function getValue() public pure returns (uint256) {
         uint256 value = 1;
         return value;
